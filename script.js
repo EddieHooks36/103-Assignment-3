@@ -1,20 +1,32 @@
-let dbNumber = 4;
+let result;
 
-function calculate(){
-    
-    
+let operator = prompt('Enter operator ( either +, -, * or / ): ');
 
+let number1 = parseFloat(prompt('Enter first number: '));
+let number2 = parseFloat(prompt('Enter second number: '));
 
+switch(operator) {
+    case '+':
+         result = number1 + number2;
+        console.log(`${number1} + ${number2} = ${result}`);
+        break;
 
+    case '-':
+         result = number1 - number2;
+        console.log(`${number1} - ${number2} = ${result}`);
+        break;
 
+    case '*':
+         result = number1 * number2;
+        console.log(`${number1} * ${number2} = ${result}`);
+        break;
 
+    case '/':
+         result = number1 / number2;
+        console.log(`${number1} / ${number2} = ${result}`);
+        break;
 
-
-
+    default:
+        console.log('Invalid operator');
+        break;
 }
-
-let firstNumber = prompt("Type the number four");
-let secondNumber = prompt("Type the number six"); 
-
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
-
