@@ -6,7 +6,6 @@ function calculator(){
 
     let result;
 
-
     if (operator == '+'){
         result = number1 + number2;
 }
@@ -21,6 +20,3 @@ function calculator(){
         document.getElementById("+, -, *, /"). innerHTML = `<p class="alert-error">Invalid Input</p>`;
 }
 }
-    
-    
-
