@@ -20,3 +20,6 @@ function calculator(){
         document.getElementById("+, -, *, /"). innerHTML = `<p class="alert-error">Invalid Input</p>`;
 }
 }
+
+
+//Having trouble displaying the results 
